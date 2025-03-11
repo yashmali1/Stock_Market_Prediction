@@ -56,7 +56,7 @@ START = st.sidebar.date_input("📅 Start date", date(2020, 1, 1))
 TODAY = st.sidebar.date_input("📅 End date", date.today())
 
 # Define prediction period
-n_years = st.sidebar.slider("⏳ Years of prediction:", 1, 10)
+n_years = st.sidebar.slider("⏳ Years of prediction:", 1, 5)
 period = n_years * 365
 
 # Function to load stock data
