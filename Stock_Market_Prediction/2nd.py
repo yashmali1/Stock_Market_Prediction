@@ -20,7 +20,6 @@ st.sidebar.header("📌 User Input")
 
 # Predefined list of stocks with names and tickers
 STOCK_DATA = {
-    "AAPL": "Apple Inc.",
     "GOOG": "Alphabet Inc. (Google)",
     "MSFT": "Microsoft Corporation",
     "TSLA": "Tesla Inc.",
